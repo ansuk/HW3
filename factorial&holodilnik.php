@@ -1,12 +1,17 @@
 <?php
-function factorial($x){ 
+
+function factorial($x) { 
+   
     if($x==1){
 	return $x;
-}else{
 
-return $x * factorial($x-1);  
+} else {
+
+  return $x * factorial($x-1);  
 } 
-}echo factorial(5)."<br>";
+}
+
+echo factorial(5)."<br>";
 
 
 $holodilnik=array('верхняя'=>'мясо','средняя'=>'овощи','нижняя'=>'фрукты');
@@ -25,4 +30,3 @@ $holodilnik[2][2]=array('с дачи','импортное','с деревни');
 
 echo $holodilnik[1][1][2]."<br>";
 
-?>

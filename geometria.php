@@ -23,5 +23,3 @@ function krug($r)
  }
 
   krug(452);
-
-?>
